@@ -1,0 +1,58 @@
+
+.center-a-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+  }
+  .input-placeholder{
+    background-color: white;
+    width: 41vh;
+    height: 10vh;
+  }
+  .calc-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 60vh;
+    background-color: blue;
+    border-radius: 20px;
+  }
+  .flex-row{
+    display: flex;
+    flex-direction: row;
+  }
+  .number-element{
+    display: flex;
+    height:6vh;
+    width:10vh;
+   background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 10px;
+  }
+  .op-element{
+    display: flex;
+    height:6vh;
+    width:10vh;
+   background-color: grey;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 10px;
+  }
+  .equal-element{
+    display: flex;
+    height:6vh;
+    width:10vh;
+   background-color: orange;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 10px;
+  }
